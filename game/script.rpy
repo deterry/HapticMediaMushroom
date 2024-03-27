@@ -26,7 +26,20 @@ label start:
     e "You've created a new Ren'Py game."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
-
+    menu:
+        "Try out a forking paths!":
+            e "Nice! Good job trying out a path!"
+            action Jump("next")
+        "Try this forking path.":
+            e "Good job, you're trying out a new path!"
+            action Jump("next")
+label next:
+    scene bg 262.jpg
+    show eileen happy
+    menu:
+        "End the game":
+            e "Good job! You ended the game!"
+            return
     # This ends the game.
 
-    return
+

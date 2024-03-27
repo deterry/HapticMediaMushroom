@@ -4,8 +4,6 @@
 # name of the character.
 
 define e = Character("Eileen")
-
-
 # The game starts here.
 
 label start:
@@ -15,6 +13,7 @@ label start:
     # images directory to show it.
 
     scene bg room
+
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

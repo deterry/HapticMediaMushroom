@@ -29,12 +29,12 @@ label start:
     menu:
         "Try out a forking paths!":
             e "Nice! Good job trying out a path!"
-            action Jump("next")
+            action jump("next")
         "Try this forking path.":
             e "Good job, you're trying out a new path!"
-            action Jump("next")
+            action jump("next")
 label next:
-    scene bg 262.jpg
+    scene bg "262.jpg"
     show eileen happy
     menu:
         "End the game":
